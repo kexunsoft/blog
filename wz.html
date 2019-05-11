@@ -18,8 +18,9 @@
 				color: #7FFFD4;
 			}
 			
-			
-			
+			.item p {
+				color: gray;
+			}
 		</style>
 		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 		<script>
@@ -29,7 +30,7 @@
 
 					$.each(data, function(index, item) {
 						$(".list").append('<div class="item"> ' +
-							'<h3><a href="' + item.href + '">' + item.title + '</a><small>更新时间:' + item.date + '</small></h3>' +
+							'<h3><a  href="' + item.href + '" >' + item.title + '</a><small>&nbsp;更新时间:' + item.date + '</small></h3>' +
 							'<p>' + item.desc + '</p>' +
 							'</div>')
 					});
@@ -39,6 +40,8 @@
 			})
 		</script>
 	</head>
-	
+	<div class="list">
+
+	</div>
 
 </html>
