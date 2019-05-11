@@ -3,6 +3,7 @@
 
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>始梦少年的博客</title>
 		<style>
 			.main {
@@ -34,10 +35,11 @@
 				margin: 10px;
 			}
 			
-			.right h1 {
+			.right h2 {
 				color: #999;
 				border-bottom: 3px solid #7FFFD4;
 				padding-bottom: 10px;
+				margin: 10px;
 			}
 			
 			.right h3,
@@ -80,9 +82,37 @@
 				position: absolute;
 				left: 0px;
 				right: 0px;
-				height: 620px;
 				margin: 0px 20px;
-				/*overflow-y: scroll;*/
+				top: 100px;
+				bottom: 0px;
+			}
+			
+			.title {
+				text-align: center;
+				margin-top: 20px;
+				display: none;
+			}
+			
+			.item p {
+				color: gray;
+			}
+			
+			@media only screen and (max-width: 1100px) {
+				.left {
+					width: 0%;
+					display: none;
+				}
+				.right {
+					left: 0px;
+					width: 100%;
+					margin: 0px;
+				}
+				.wzList {
+					top: 300px;
+				}
+				.title {
+					display: block;
+				}
 			}
 		</style>
 		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -99,14 +129,19 @@
 				<p align="center" style="margin: auto 30px;">一名Java程序员</p>
 			</div>
 			<div class="right">
-				<h1 style="padding-left: 10px;">
-					<a href="index.html">
+				<div style="" class="title">
+					<img style="height: 100px; width: 100px; border-radius: 100px;" src="img/head.jpeg" />
+					<h1 style="border-bottom: 0px; color: #7FFFD4;">始梦少年的博客</h1>
+				</div>
+				<h2 style="padding: 10px 10px;">
+					<a href="index.html" >
 						文章列表
 					</a>
-				</h1>
+				</h2>
 				<div class="wzList">
-					<iframe src="wz.html" style="width: 100%;height: 100%; border: none;">
-					</iframe>
+					<div class="list">
+
+					</div>
 				</div>
 			</div>
 		</div>
