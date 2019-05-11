@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>始梦少年的博客</title>
+		<style>
+			.main {
+				background-color: #333;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				right: 0px;
+				bottom: 0px;
+				z-index: -1;
+			}
+			
+			.left {
+				width: 20%;
+				border-right: 3px solid #7FFFD4;
+				position: absolute;
+				bottom: 0px;
+				top: 0px;
+				left: 0px;
+				color: #999;
+			}
+			
+			.right {
+				position: absolute;
+				bottom: 0px;
+				top: 0px;
+				left: 20%;
+				right: 0px;
+				margin: 10px;
+			}
+			
+			.right h1 {
+				color: #999;
+				border-bottom: 3px solid #7FFFD4;
+				padding-bottom: 10px;
+			}
+			
+			.right h3,
+			a {
+				color: #7FFFD4;
+				margin: 0px;
+				text-decoration: none;
+			}
+			
+			.right h3>small {
+				font-size: 12px;
+				font-weight: normal;
+			}
+			
+			a:hover {
+				opacity: 0.8;
+			}
+			
+			.right p {
+				color: #999999;
+				margin-top: 5px;
+			}
+			
+			.head {
+				height: 200px;
+				width: 200px;
+				margin: auto;
+				margin-top: 100px;
+				/*border-radius: 200px;*/
+			}
+			
+			.head img {
+				border: 5px solid aquamarine;
+				border-radius: 200px;
+				height: 100%;
+				width: 100%;
+			}
+			
+			.wzList {
+				position: absolute;
+				left: 0px;
+				right: 0px;
+				height: 620px;
+				margin: 0px 20px;
+				/*overflow-y: scroll;*/
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="left">
+				<div class="head">
+					<img src="img/head.jpeg" />
+				</div>
+				<h2 align="center">李冬</h2>
+				<p align="center" style="margin: auto 30px;">一名Java程序员</p>
+			</div>
+			<div class="right">
+				<h1 style="padding-left: 10px;">
+					<a href="index.html">
+						文章列表
+					</a>
+				</h1>
+				<div class="wzList">
+					<iframe src="wz.html" style="width: 100%;height: 100%; border: none;">
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

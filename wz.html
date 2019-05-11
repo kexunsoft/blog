@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			h3 {
+				color: #7FFFD4;
+			}
+			
+			h3>small {
+				font-size: 12px;
+				font-weight: normal;
+			}
+			
+			a {
+				color: #7FFFD4;
+			}
+			
+			.item p {
+				color: gray;
+			}
+			
+			.list {}
+		</style>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script>
+			$(function() {
+
+				$.get("config/blogConfig.json", function(data) {
+
+					$.each(data, function(index, item) {
+						$(".list").append('<div class="item"> ' +
+							'<h3><a href="' + item.href + '">' + item.title + '</a><small>更新时间:' + item.date + '</small></h3>' +
+							'<p>' + item.desc + '</p>' +
+							'</div>')
+					});
+
+				})
+
+			})
+		</script>
+	</head>
+	<div class="list">
+
+	</div>
+
+</html>
