@@ -28,7 +28,16 @@
 
 				$.get("config/blogConfig.json", function(data) {
 
+					//					for(var i = data.length; i >= 0; i--) {
+					//						var item = data[i];
+					//						$(".list").append('<div class="item"> ' +
+					//							'<h3><a  href="' + item.href + '" >' + item.title + '</a><small>&nbsp;更新时间:' + item.date + '</small></h3>' +
+					//							'<p>' + item.desc + '</p>' +
+					//							'</div>')
+					//					}
+
 					$.each(data, function(index, item) {
+
 						$(".list").append('<div class="item"> ' +
 							'<h3><a  href="' + item.href + '" >' + item.title + '</a><small>&nbsp;更新时间:' + item.date + '</small></h3>' +
 							'<p>' + item.desc + '</p>' +

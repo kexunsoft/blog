@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Spring",
-		"date": "2019-09-09",
+		"date": "2019-05-07",
 		"desc": "Spring简介",
 		"href": "blog/Spring.html"
 	}, {
@@ -9,11 +9,15 @@
 		"date": "2019-05-11",
 		"desc": "自己在学习的过程中整理的笔记,希望对大家有帮助",
 		"href": "blog/Mybatis教程（简单入门）.html"
-	},{
+	}, {
 		"title": "常见JDBC连接数据库字符串",
 		"date": "2019-05-12",
 		"desc": "jdbc操作数据库的一些整理",
 		"href": "blog/常见JDBC连接数据库字符串.html"
+	}, {
+		"title": "无聊写的一个简单但实用的jdbc封装",
+		"date": "2019-05-17",
+		"desc": "jdbc操作数据库",
+		"href": "blog/DBUtils.html"
 	}
-	
 ]
