@@ -19,5 +19,10 @@
 		"date": "2019-05-17",
 		"desc": "jdbc操作数据库",
 		"href": "blog/DBUtils.html"
+	}, {
+		"title": "Java集合排序以及注意点",
+		"date": "2019-05-27",
+		"desc": "列出了ArrayList,HashMap的排序方法,以及一些集合在多线程环境下的注意点",
+		"href": "blog/集合框架.html"
 	}
 ]
