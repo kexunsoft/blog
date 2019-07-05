@@ -1,25 +1,35 @@
 [
 	{
+		"title": "如何使用Maven搭建一个简单的SSM项目",
+		"date": "2019-07-05",
+		"desc": "教搭建如何使用Mac恩搭建SSM项目",
+		"href": "blog/如何使用Maven构建一个SSM项目.html"
+	},
+	{
 		"title": "Spring",
 		"date": "2019-05-07",
 		"desc": "Spring简介",
 		"href": "blog/Spring.html"
-	}, {
+	},
+	{
 		"title": "MyBatis笔记整理",
 		"date": "2019-05-11",
 		"desc": "自己在学习的过程中整理的笔记,希望对大家有帮助",
 		"href": "blog/Mybatis教程（简单入门）.html"
-	}, {
+	},
+	{
 		"title": "常见JDBC连接数据库字符串",
 		"date": "2019-05-12",
 		"desc": "jdbc操作数据库的一些整理",
 		"href": "blog/常见JDBC连接数据库字符串.html"
-	}, {
+	},
+	{
 		"title": "无聊写的一个简单但实用的jdbc封装",
 		"date": "2019-05-17",
 		"desc": "jdbc操作数据库",
 		"href": "blog/DBUtils.html"
-	}, {
+	},
+	{
 		"title": "Java集合排序以及注意点",
 		"date": "2019-05-27",
 		"desc": "列出了ArrayList,HashMap的排序方法,以及一些集合在多线程环境下的注意点",
