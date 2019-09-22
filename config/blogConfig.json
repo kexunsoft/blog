@@ -2,12 +2,12 @@
 	{
 		"title": "自定义一个RPC框架",
 		"date": "2019-08-24",
-		"desc": "学习了Dubbo之后,寻思着自己写一个RPC框架,这里只是一个测试",
+		"desc": "学习了Dubbo之后,寻思着自己写一个RPC框架",
 		"href": "blog/RPC.html"
 	}, {
 		"title": "如何使用Maven搭建一个简单的SSM项目",
 		"date": "2019-07-05",
-		"desc": "教搭建如何使用Mac恩搭建SSM项目",
+		"desc": "如何使用maven搭建SSM项目",
 		"href": "blog/如何使用Maven构建一个SSM项目.html"
 	}, {
 		"title": "常见JDBC连接数据库字符串",
